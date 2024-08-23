@@ -1,0 +1,31 @@
+@import url("comunes.css");
+
+.property-details {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.gallery {
+    flex: 1 1 30rem;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+.info {
+    flex: 1 1 30rem;
+    margin-top: 1rem;
+}
+
+.qr-code {
+    flex: 1 1 10rem;
+    margin-top: 1rem;
+}
+
+.qr-code img {
+    width: 100%;
+    height: auto;
+}

@@ -1,0 +1,75 @@
+@import url("comunes.css");
+
+.card{
+    margin-bottom: 5em;
+    margin-top: 5em;
+    margin-left: 4em;
+    margin-right: 4em;
+    text-align:justify;
+    width: 280px !important;
+    
+} 
+
+.card-img-top:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+     
+    -webkit-transition: transform 0.3s ease;
+    -moz-transition: transform 0.3s ease;
+    -ms-transition: transform 0.3s ease;
+    -o-transition: transform 0.3s ease;
+}
+
+#icono {
+    position: relative; 
+    padding-left: 24px; 
+    line-height: 1; 
+}
+
+#icono::before {
+    content: ''; 
+    position: absolute; 
+    left: 0; 
+    top: 50%; 
+    transform: translateY(-50%); 
+    width: 16px; 
+    height: 16px; 
+    background-image: url(/img/icono\ ubicacion.png); 
+    background-size: cover; 
+}
+
+.card-img-top{
+    margin: 0 auto;
+    margin-top: 20px;
+    height: 200px;
+    width: 200px;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+}
+
+
+
+
+#espacioArriba{
+    height: 150px;
+}
+
+body {
+    background-image: url("/img/fondoAunTeInteresa.jpg");
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+.card{
+    background-color: rgba(255, 255, 255, 0.777);
+    color: rgb(0, 0, 0);
+}
+
+
+
+
+
+

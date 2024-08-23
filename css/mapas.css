@@ -1,0 +1,43 @@
+@import url("comunes.css");
+
+#espacioArriba{
+    
+    height: 150px;
+    width: 100%;
+   
+}
+
+body {
+    background-image: url("/img/fondoMapas.jpg");
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+
+#sede{
+   padding-left: 20px;
+   color: rgb(243, 243, 243);
+   background-color:   rgba(51, 51, 51, 0.5);  
+   height: 600px;
+   width: 350px;
+}
+
+
+#local{
+    width: 300px;
+    height: 300px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+
+.contenedor{
+    height: 700px;
+    
+    
+}
+#titulo{
+    padding-left: 50px;
+}
+
+

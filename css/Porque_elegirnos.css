@@ -1,0 +1,46 @@
+@import url("comunes.css");
+
+#subtitulo {
+    text-align: center; 
+    margin-left: 20%; 
+    margin-right: 20%; 
+    margin-top: 50px
+}
+
+.elegirnos{
+
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 100px;
+    text-align: justify;
+}
+
+#elegirnos_sub{
+    
+    margin-left: 150px;
+    margin-right: 10px;
+    margin-top: 30px;
+    text-align: justify;
+
+}
+
+.fotos_elegirnos{
+
+    float: right; 
+    width: 300px;
+    height: auto; 
+    margin-left: 10px; 
+    margin-right: 150px;
+}
+
+.elegirnos-contenido {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 30px; 
+    margin-top: 100px;
+}
+
+.elegirnos-texto {
+    flex: 1;
+}

@@ -1,0 +1,81 @@
+
+@import url("comunes.css");
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #ffffff;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+h1 {
+    font-size: 2rem;
+    color: #444;
+    margin-bottom: 1rem;
+}
+
+.options {
+    display: flex;
+    justify-content: space-around;
+    margin: 2rem 0;
+}
+
+.option {
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    padding: 1rem;
+    width: 30%;
+    text-align: left;
+}
+
+.option h2 {
+    font-size: 1.2rem;
+    color: #444;
+    margin-bottom: 0.5rem;
+}
+
+.option p {
+    font-size: 1rem;
+    color: #777;
+    margin-bottom: 1rem;
+}
+
+.cta {
+    background-color: #4CAF50;
+    color: white;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 1rem;
+}
+
+.cta:hover {
+    background-color: #45a049;
+}
+.roomtour-video {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.roomtour-video iframe {
+    width: 100%;
+    max-width: 800px;
+    height: 450px;
+}
+  
+ 

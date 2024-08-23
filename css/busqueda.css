@@ -1,0 +1,44 @@
+@import url("comunes.css");
+
+
+
+#cuadroBusqueda{
+    background-color: rgba(212, 212, 212, 0.5); 
+    /* Otras propiedades opcionales para estilizar el div */
+    width: 670px;
+    height: 290px;
+    color: rgb(0, 0, 0); /* Cambia el color del texto dentro del div */
+    padding: 20px;
+    position: relative;
+    margin-left: 400px;
+    
+   
+}
+
+main {
+    background-image: url("/img/fondoBusqueda.jpg");
+    background-size: cover; /* Ajusta el tamaño de la imagen para cubrir todo el elemento */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    /* Otros estilos que desees aplicar al elemento main */
+}
+
+#espacioArriba{
+    
+    height: 290px;
+}
+#espacioAbajo{
+    height: 300px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
